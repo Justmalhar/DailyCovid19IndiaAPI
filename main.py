@@ -127,6 +127,7 @@ def jsonBuilder():
     parseTableData(soup, data)
     print(data)
     generateOutputFile(soup, data)
+    return json.dump(data)
 
 
 def write_json(data, filename):
