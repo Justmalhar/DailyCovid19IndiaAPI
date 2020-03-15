@@ -103,7 +103,7 @@ def parseTableData(soup, data):
         index +=1
 
 def generateOutputFile(soup, data):
-    filename = "covid_test"
+    filename = "covid_"
     extension = ".json"
 
     output_file = filename + getLastUpdatedTimeStamp(soup) + extension
